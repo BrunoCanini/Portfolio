@@ -12,7 +12,7 @@ export default function TheVideo(){
 
                 <div className="video-player-container container mx-auto h-[40rem]">
                     <ReactPlayer
-                    url="/Il mio video-2.mp4" // Sostituisci con l'URL del tuo video
+                    url="/Il-mio-video-2.mp4" // Sostituisci con l'URL del tuo video
                     controls={true} // Abilita i controlli del player
                     width="100%"
                     height="100%"
