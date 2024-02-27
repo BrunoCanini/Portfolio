@@ -21,7 +21,6 @@ export default function Thejumbotron(){
 
             <div>
                 <button className="bg-lime-500 font-medium py-2 px-3 animate-bounce" onClick={onButtonClick}>DOWNLOAD CV</button>
-
             </div>
         </div>
     )

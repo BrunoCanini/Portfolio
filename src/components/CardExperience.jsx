@@ -7,7 +7,7 @@ export default function CardExperience({title, data, description, certificate, c
 
     const isHidden = () =>{
         if(show == true){
-            return " h-screen w-screen animate__animated animate__backOutRight"
+            return "animate__animated animate__backOutRight"
         }return "animate__animated animate__backInRight"
     }
 
@@ -39,7 +39,7 @@ export default function CardExperience({title, data, description, certificate, c
         </div>
 
         <div className={isHidden()}>
-            <img className="lg:max-w-[40rem]" src={certificate} alt="" />
+            <img className="w-screen lg:max-w-[40rem]" src={certificate} alt="" />
         </div>
 
     </div>
