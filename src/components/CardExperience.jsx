@@ -39,7 +39,7 @@ export default function CardExperience({title, data, description, certificate, c
         </div>
 
         <div className={isHidden()}>
-            <img className="max-w-[40rem]" src={certificate} alt="" />
+            <img className="sm:w-full max-w-[40rem]" src={certificate} alt="" />
         </div>
 
     </div>
