@@ -3,7 +3,7 @@ import Thejumbotron from "../components/TheJumbotron"
 
 export default function Home(){
     return(
-        <div id="container_home" className="mx-auto w-full relative max-w-[2500px]">
+        <div id="container_home" className="mx-auto w-full relative max-w-[2560px]">
 
             <div className="flex justify-between w-full mx-auto relative">
 
